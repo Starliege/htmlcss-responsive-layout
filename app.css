@@ -64,6 +64,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 70px
 }
 
 .demoapp {
@@ -176,4 +177,89 @@ body {
 .secondrow {
     display: flex;
     justify-content: space-between;
+}
+
+.strategic {
+    background-color: #9593e6;
+}
+
+.stratcol {
+    width: 40%;
+}
+
+.stratcontainer {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.stratcol {
+    margin: 20px;
+}
+
+.planimg {
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.devimg {
+    width: 70%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+}
+
+.planning > h3 {
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: 30px
+}
+
+.planning > p {
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+.devving {
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.devving > h3 {
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+.devving > p {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    line-height: 1.3rem;
+    font-size: 0.8rem;
+    padding: 0 20px 0 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.devdown {
+    padding: 10px 20px;
+    background-color: #9593e6;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
