@@ -9,15 +9,16 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     color: #b8c1ec;
-    background: beige;
+    background: white;
 
 }
 
 /* header */
 
-header:first-child {
+.barra {
     height: 75px;
-    background-color: rgb(0,132,253)
+    background-color: rgb(0,132,253);
+    margin-bottom: 30px;
 }
 
 .topbar {
@@ -44,7 +45,7 @@ header:first-child {
     margin-top: 20px;
 }
 
-.topbar > nav > ul > li > .startbutton {
+.startbutton {
     padding: 10px 20px;
     background-color: white;
     color: black;
@@ -55,4 +56,124 @@ header:first-child {
 
 .topbar > nav > ul > li:nth-child(4) {
     padding-right: 10px;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.demoapp {
+    width: 66%;
+    color: #6d7f8e;
+    background-color: #b5ddff;
+    border-radius: 25px;
+    height: 350px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.demoapptxt > h2 {
+    padding: 30px 0 20px 20px;
+    color: #0084fd;
+}
+
+.demoapptxt > p {
+    padding: 10px 50px 20px 20px;
+    font-weight: 700;
+    line-height: 2.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.demoapp > .phone > img {
+    height: 300px;
+}
+
+.phone {
+    align-self: flex-end;
+    padding-right: 100px;
+    margin-bottom: -5px;
+}
+
+.appstore {
+    padding: 10px 50px;
+    background-color: rgb(0,132,253);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.demoappsmall {
+    width: 32%;
+    color: #6d7f8e;
+    background-color: #b5ddff;
+    border-radius: 25px;
+    height: 350px;
+}
+
+.demoappsmall > h2 {
+    padding: 30px 0 10px 0;
+    color: #0084fd;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.demoappsmall > h3 {
+    color: #0084fd;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    padding-bottom: 15px;
+}
+
+.demoappsmall > p {
+    font-weight: 700;
+    line-height: 2.2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 1000;
+    padding: 0 5px 0 5px;
+}
+
+.demoappsmallsub {
+    width: 32%;
+    color: #6d7f8e;
+    background-color: #b5ddff;
+    border-radius: 25px;
+    height: 350px;
+}
+
+.demoappsmallsub > h2 {
+    padding: 30px 0 10px 0;
+    color: #0084fd;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.demoappsmallsub > h3 {
+    color: #0084fd;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 1000;
+    padding-bottom: 15px;
+}
+
+.demoappsmallsub > p {
+    font-weight: 700;
+    line-height: 2.2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 1000;
+    padding: 0 5px 0 5px;
+}
+
+.secondrow {
+    display: flex;
+    justify-content: space-between;
 }
