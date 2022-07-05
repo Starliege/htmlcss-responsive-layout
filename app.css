@@ -518,6 +518,24 @@ body {
     font-size: 20px;
   }
 
+   /* FOOTER */
+
+   .piedi {
+    background-color: #333333;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+  }
+  .piedi p:first-child{
+    margin-bottom: 70px;
+  }
+  .piedi a {
+    color: #9792E4;
+  }
+  .piedi p{
+    line-height: 1.5rem;
+    font-size: 18px;
+  }
 
 
 
