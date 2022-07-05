@@ -245,7 +245,6 @@ body {
     line-height: 1.3rem;
     font-size: 0.8rem;
     padding: 0 20px 0 20px;
-    font-weight: 700;
     padding-bottom: 20px;
 }
 
@@ -262,4 +261,73 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+}
+
+.partner > .container > h3 {
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 0px 0 30px 0;
+}
+
+.partner > .container > h1 {
+    color: #9593e6;
+    text-align: center;
+    width: 100%;
+    font-size: 2.3rem;
+    padding-bottom: 30px;
+}
+
+.partner > .container > p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    line-height: 2rem;
+    padding-bottom: 40px;
+}
+
+.cardbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card {
+    background-color: #9593e6;
+    border-radius: 30px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.testim {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.testim > img {
+    display: inline;
+  margin: 0 auto;
+  margin-left: -25%;
+  height: 100%;
+  width: auto;
+}
+
+.testimhead {
+    padding: 20px;
+
+}
+
+.card > p {
+    align-self: center;
+    padding-left: 30px;
+    line-height: 2rem;
+    color: white;
+}
+
+.name {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
