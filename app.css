@@ -465,6 +465,61 @@ body {
     color: black
 }
 
+ /* GETSTARTED */
+
+ .container-small {
+    max-width: 850px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  .getstarted {
+    padding: 65px 0;
+    color: white;
+    text-align: center;
+    background-color: #9792E4;
+  }
+  
+  .getstarted .free {
+    font-size: 6rem;
+    color: #FDC15F;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    display: block;
+  }
+  
+  .getstarted h2 {
+    font-size: 3rem;
+    margin-top: 35px;
+  }
+  
+  .getstarted p {
+    line-height: 2rem;
+    font-size: 20px;
+  }
+  
+  .button-start {
+    background-color: white;
+    color: #9792E4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .button-big {
+    padding: 35px 80px;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    letter-spacing:0.4rem;
+  }
+  
+  .getstarted address {
+    font-style: normal;
+    font-size: 20px;
+  }
+
+
+
 
 
 
@@ -820,10 +875,22 @@ body {
 
     .about > .container {
         flex-direction: column;
+        padding: 40px;
     }
 
     .about h2 {
         font-size: 3rem;
     }
+
+    /* GETSTARTED */
+
+    .getstarted .free {
+        font-size: 4rem;
+      }
+    
+      .getstarted h2 {
+        font-size: 2rem;
+    
+      }
 
 }
