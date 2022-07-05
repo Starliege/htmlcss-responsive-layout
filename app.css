@@ -13,18 +13,18 @@ body {
 
 }
 
-/* header */
+/* HEADER */
 
 .barra {
     height: 75px;
-    background-color: rgb(0,132,253);
+    background-color: rgb(0, 132, 253);
     margin-bottom: 30px;
 }
 
 .topbar {
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    max-width: 1000px;
     margin: auto;
     align-items: center;
 }
@@ -34,14 +34,18 @@ body {
     margin-top: 15px;
 }
 
-.topbar > nav > ul > li {
+.topbar>nav>ul>li {
     list-style: none;
     display: inline;
     padding-left: 15px;
     color: beige;
 }
 
-.topbar > nav {
+.menumobile {
+    display: none;
+}
+
+.topbar>nav {
     margin-top: 20px;
 }
 
@@ -54,12 +58,12 @@ body {
     text-decoration: none;
 }
 
-.topbar > nav > ul > li:nth-child(4) {
+.topbar>nav>ul>li:nth-child(4) {
     padding-right: 10px;
 }
 
 .container {
-    width: 60%;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -77,32 +81,31 @@ body {
     margin-bottom: 20px;
 }
 
-.demoapptxt > h2 {
+.demoapptxt>h2 {
     padding: 30px 0 20px 20px;
     color: #0084fd;
 }
 
-.demoapptxt > p {
+.demoapptxt>p {
     padding: 10px 50px 20px 20px;
     font-weight: 700;
-    line-height: 2.2rem;
-    font-size: 1.1rem;
+    line-height: 2.0rem;
     margin-bottom: 20px;
 }
 
-.demoapp > .phone > img {
+.demoapp>.phone>img {
     height: 300px;
 }
 
 .phone {
     align-self: flex-end;
-    padding-right: 100px;
+    padding-right: 50px;
     margin-bottom: -5px;
 }
 
 .appstore {
     padding: 10px 50px;
-    background-color: rgb(0,132,253);
+    background-color: rgb(0, 132, 253);
     color: white;
     text-align: center;
     border-radius: 20px;
@@ -118,14 +121,14 @@ body {
     height: 350px;
 }
 
-.demoappsmall > h2 {
+.demoappsmall>h2 {
     padding: 30px 0 10px 0;
     color: #0084fd;
     text-align: center;
     font-size: 5rem;
 }
 
-.demoappsmall > h3 {
+.demoappsmall>h3 {
     color: #0084fd;
     text-align: center;
     font-size: 1.2rem;
@@ -133,7 +136,7 @@ body {
     padding-bottom: 15px;
 }
 
-.demoappsmall > p {
+.demoappsmall>p {
     font-weight: 700;
     line-height: 2.2rem;
     font-size: 1.1rem;
@@ -150,14 +153,14 @@ body {
     height: 350px;
 }
 
-.demoappsmallsub > h2 {
+.demoappsmallsub>h2 {
     padding: 30px 0 10px 0;
     color: #0084fd;
     text-align: center;
     font-size: 5rem;
 }
 
-.demoappsmallsub > h3 {
+.demoappsmallsub>h3 {
     color: #0084fd;
     text-align: center;
     font-size: 1.2rem;
@@ -165,7 +168,7 @@ body {
     padding-bottom: 15px;
 }
 
-.demoappsmallsub > p {
+.demoappsmallsub>p {
     font-weight: 700;
     line-height: 2.2rem;
     font-size: 1.1rem;
@@ -179,6 +182,8 @@ body {
     justify-content: space-between;
 }
 
+/* STRATEGIC */
+
 .strategic {
     background-color: #9593e6;
 }
@@ -189,8 +194,8 @@ body {
 
 .stratcontainer {
     display: flex;
-    width: 70%;
-    margin: auto;
+    min-width: 300px;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -206,18 +211,18 @@ body {
 .devimg {
     width: 70%;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
 }
 
-.planning > h3 {
+.planning>h3 {
     color: white;
     font-size: 1.2rem;
     padding-bottom: 30px
 }
 
-.planning > p {
+.planning>p {
     color: white;
     font-size: 0.9rem;
     line-height: 1.3rem;
@@ -230,7 +235,7 @@ body {
     justify-content: center;
 }
 
-.devving > h3 {
+.devving>h3 {
     color: black;
     font-weight: 1000;
     text-align: center;
@@ -238,7 +243,7 @@ body {
     padding-bottom: 20px;
 }
 
-.devving > p {
+.devving>p {
     text-align: center;
     font-style: italic;
     color: black;
@@ -263,14 +268,16 @@ body {
     margin-bottom: 20px;
 }
 
-.partner > .container > h3 {
+/* PARTNER */
+
+.partner>.container>h3 {
     color: black;
     text-align: center;
     width: 100%;
     padding: 0px 0 30px 0;
 }
 
-.partner > .container > h1 {
+.partner>.container>h1 {
     color: #9593e6;
     text-align: center;
     width: 100%;
@@ -278,7 +285,7 @@ body {
     padding-bottom: 30px;
 }
 
-.partner > .container > p {
+.partner>.container>p {
     font-size: 1.2rem;
     text-align: center;
     color: black;
@@ -307,12 +314,12 @@ body {
     border-radius: 50%;
 }
 
-.testim > img {
+.testim>img {
     display: inline;
-  margin: 0 auto;
-  margin-left: -25%;
-  height: 100%;
-  width: auto;
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
 }
 
 .testimhead {
@@ -320,7 +327,7 @@ body {
 
 }
 
-.card > p {
+.card>p {
     align-self: center;
     padding-left: 30px;
     line-height: 2rem;
@@ -330,4 +337,309 @@ body {
 .name {
     font-weight: 700;
     letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
+
+
+/* TABLET */
+
+/* TABLET */
+
+@media screen and (max-width: 1240px) {
+    * {
+        max-width: 1540px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menumobile {
+        display: inline;
+        color: beige;
+        font-size: 30px;
+    }
+
+    .container {
+        display: flex;
+        max-width: 740px;
+        min-width: 400px;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .topbar {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        max-width: 740px;
+    }
+
+    .demoapp {
+        width: 66%;
+        min-height: 550px;
+        flex-direction: column;
+        min-width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .demoapptxt {
+        height: 300px;
+        font-size: 1rem;
+        text-align: left;
+        margin: 0;
+    }
+
+    .demoapptxt>p {
+        padding: 20px;
+    }
+
+    .appbutton {
+        align-self: flex-start;
+    }
+
+    .phone {
+        align-self: flex-start;
+        justify-content: center;
+        padding: 0px;
+    }
+
+
+    .demoappsmall {
+        min-width: 32%;
+        min-height: 550px;
+    }
+
+    .demoappsmall,
+    .demoappsmallsub {
+        margin-bottom: 20px;
+    }
+
+    .demoappsmallsub {
+        min-height: 450px;
+        margin-bottom: 20px;
+    }
+
+    .secondrow {
+        flex-wrap: wrap;
+    }
+
+    header>.container {
+        margin-bottom: 60px;
+    }
+
+    /* STRATEGIC */
+
+
+    .stratcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 641px;
+        padding: 0px;
+    }
+
+    .stratcol {
+        width: 640px;
+    }
+
+    .planimg {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .devving {
+        margin-top: 20px;
+    }
+
+    .planning>h3 {
+        font-size: 1.5rem;
+    }
+
+    .strategic>.container {
+        margin-bottom: 60px;
+    }
+
+    .stratcontainer {
+        margin-bottom: 60px;
+    }
+
+    .planning>h3 {
+        font-size: 3rem;
+    }
+
+    /* PARTNERS */
+
+    .card {
+        align-items: center;
+
+    }
+
+    .card>p {
+        text-align: left;
+        padding: 30px 30px 60px 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+
+/* HEADER */
+
+@media screen and (max-width: 640px) {
+    * {
+        max-width: 640px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menumobile {
+        display: inline;
+        color: beige;
+        font-size: 30px;
+        margin-right: -50px;
+    }
+
+    .logo {
+        margin-left: -30px;
+    }
+
+    .topbar {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        max-width: 250px;
+    }
+
+    .container {
+        flex-direction: column;
+        max-width: 600px;
+        min-width: 300px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .demoapp {
+        height: 600px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        min-width: 350px;
+        max-width: 600px;
+    }
+
+    .demoapptxt {
+        height: 300px;
+        min-width: 100%;
+        font-size: 1rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .demoapptxt>p {
+        padding: 20px;
+    }
+
+    .appstore {
+        margin: 0 auto;
+    }
+
+    .phone {
+        align-self: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .demoappsmall,
+    .demoappsmallsub {
+        margin-bottom: 20px;
+        min-width: 350px;
+        max-width: 600px;
+        min-height: 350px;
+    }
+
+    .secondrow {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header>.container {
+        margin-bottom: 60px;
+    }
+
+    /* STRATEGIC */
+
+
+    .stratcontainer {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 350px;
+        max-width: 600px;
+        padding: 0px;
+    }
+
+    .stratcol {
+        width: 350px;
+    }
+
+    .planimg {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .devving {
+        margin-top: 20px;
+    }
+
+    .planning>h3 {
+        font-size: 1.5rem;
+    }
+
+    .strategic>.container {
+        margin-bottom: 60px;
+    }
+
+    .stratcontainer {
+        margin-bottom: 60px;
+    }
+
+    /* PARTNERS */
+
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card>p {
+        text-align: center;
+        padding: 10px;
+    }
+
 }
